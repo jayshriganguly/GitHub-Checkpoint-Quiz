@@ -12,7 +12,11 @@ public class GitTest{
 		word="This is my GitHub test";
 	}
 
-	public String toString(String word){
+	public void setString(String word){
+		this.word=word;
+	}
+
+	public String toString(){
 		return word;
 	}
 
