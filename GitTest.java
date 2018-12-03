@@ -7,5 +7,9 @@ public class GitTest{
 		word="This is my GitHub test";
 	}
 
+	public String toString(String word){
+		return word;
+	}
+
 
 }
